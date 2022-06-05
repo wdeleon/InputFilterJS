@@ -1,6 +1,8 @@
 # InputFilterJS
 Javascript numeric input filter without using Regex
 
+See a (simple) live demo here: https://jsworkshop.neocities.org/inputfilter/index.html
+
 You can use it with something like:
 ```
 let myFilter = new InputFilter(document.getElementById('filtered'), InputFilter.Float, InputFilter.Signed, callbackFn);
